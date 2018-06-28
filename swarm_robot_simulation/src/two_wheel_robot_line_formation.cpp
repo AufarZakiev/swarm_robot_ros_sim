@@ -1,6 +1,6 @@
 // this node is the line formation simulation of two wheel robots
 
-// line formation algirithm explanation:
+// line formation algorithm explanation:
 // This simulation forms a line by using a local line fitting technique. Each robot does a linear fitting
 // on all its neighbor robots in the sensing range. Then calculating two feedback vectors to drive the
 // robot into its fitted line: perpendicular feedback vector and parallel feedback vector. Perpendicular
@@ -247,13 +247,13 @@ int main(int argc, char **argv) {
             if (print_debug_msg) {
                 std::cout << "number of neighbors in sensing range" << std::endl;
                 // print multiple colomns in the terminal
-                int colomn_count = -1;  // increment by 1 first thing in the loop
+                int column_count = -1;  // increment by 1 first thing in the loop
                 int i=0;  // robot count
                 while (i < robot_quantity) {
                     // colomn control
-                    colomn_count = colomn_count + 1;
-                    if (colomn_count == 4) {
-                        colomn_count = 0;
+                    column_count = column_count + 1;
+                    if (column_count == 4) {
+                        column_count = 0;
                         std::cout << std::endl;
                     }
                     // print message
