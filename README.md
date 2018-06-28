@@ -1,6 +1,8 @@
 # swarm_robot_ros_sim
 A swarm robot simulation environment for ROS to be used with Gazebo.
 
+Updated for ROS Kinetic by Aufar Zakiev
+
 (Please also check out my new swarm robot simulations featuring consensus and formation algorithms.)
 
 [https://github.com/yangliu28/swarm_formation_sim](https://github.com/yangliu28/swarm_formation_sim)
@@ -24,7 +26,7 @@ Other interests are Braitenberg vehicle, collective move, dealing with obstacles
 *swarm_robot_simulation* package contains the swarm algorithms.
 
 ## Setup
-Have ROS Indigo installed and workspace setup. Clone this package in ~/ros_ws/src and build with catkin_make.
+Have ROS Kinetic installed and workspace setup. Clone this package in ~/ros_ws/src and build with catkin_make.
 
 ## Demo
 Two wheel robot dispersion simulation:
